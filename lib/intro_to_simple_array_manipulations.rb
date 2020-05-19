@@ -3,10 +3,14 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
-  array[4]=element
+  array.insert(4)
 end
 
-def using_glatten(array)
+def using_uniq(array) 
+  array.uniq
+end
+
+def using_flatten(array)
   array.flatten
 end 
 
